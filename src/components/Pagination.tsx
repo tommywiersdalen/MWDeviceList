@@ -17,8 +17,10 @@ export default function Pagination({
 		<div className="py-2 flex justify-around">
 			<div>
 				<p className="text-sm text-gray-700">
-					Showing <b>{currentPage}</b> of{" "}
-					<b>{Math.ceil(totalDevices / devicesPerPage)}</b>
+					Showing <b>{devicesPerPage}</b> of <b>{totalDevices}</b>
+				</p>
+				<p className="text-sm text-gray-700">
+					Current Page: <b>{currentPage}</b>
 				</p>
 			</div>
 			<nav className="block"></nav>
