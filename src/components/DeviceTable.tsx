@@ -78,7 +78,7 @@ export function DeviceTable({ devices }: DeviceTableProps) {
 								)}
 							</td>
 
-							<td className="border px-4 py-2">
+							<td className="border px-4 py-2 space-x-4">
 								{isEditing && editRow?.id === device.id ? (
 									<button
 										className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
